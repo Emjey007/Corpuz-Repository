@@ -13,3 +13,206 @@
     display: flex;
   }
 }
+
+@media screen and (max-width: 600px) {
+  /* PROFILE */
+
+  #Picture1 {
+    height: 200px;
+  }
+
+  .ProfileContainer {
+    height: 4in;
+  }
+
+  .ProfileInfo {
+    height: 300px;
+    display: grid;
+  }
+
+  .ProfileInfo p {
+    font-size: 12px;
+  }
+
+  .ProfileInfo #Title {
+    font-size: 20px;
+  }
+
+  /* .ProfileInfo #CVButton {
+    display: flex;
+    align-items: center;
+  }
+
+  #CVButton {
+    padding: none;
+  } */
+
+  .ButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: none;
+  }
+
+  #CVButton {
+    padding: 5px 15px;
+  }
+
+  /* .ButtonContainer {
+    margin-block: none;
+  }
+
+  #CVButton {
+    padding: none;
+  } */
+
+  /* #Profile */
+
+  /* ABOUT */
+
+  #Picture2 {
+    height: 250px;
+  }
+
+  #AboutMe {
+    height: 25px;
+  }
+
+  .AboutPictureContainer {
+    height: 5in;
+  }
+
+  .FirstContainerAbout,
+  .SecondContainerAbout {
+    height: 1.5in;
+    border-radius: 10%;
+    width: 45%;
+  }
+
+  .Details h1 {
+    font-family: "Courier New";
+    font-size: 15px;
+  }
+
+  .Details p {
+    font-size: 10px;
+  }
+
+  .Details li {
+    font-size: 10px;
+    list-style: none;
+  }
+
+  /* EXPERIENCE */
+
+  /* #MyExperience {
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .ContainerForWholeExp {
+    display: grid;
+    height: 5in;
+  }
+
+  .FirstContainerExp,
+  .SecondContainerExp {
+    height: 2.5 in; */
+
+    /* display: block; */
+
+  /* .FEDDescription, .PLDescription {
+
+} */
+
+  /* PROJECTS */
+
+  #Picture3 {
+    height: 200px;
+  }
+
+  .MyProjectsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5in;
+  }
+
+  .ProjectsContainer {
+    border-radius: 10%;
+    height: 4in;
+    width: 95%;
+  }
+
+  .ProjectsInfo h2 {
+    font-size: 17.5px;
+  }
+
+  .NoOfDev p {
+    font-family: "Arial";
+    font-size: 12.5px;
+  }
+
+  #GithubButton {
+    padding: 5px 15px;
+    margin-block: 0in;
+  }
+
+  /* CONTACTS */
+
+  #MyContactsInfo {
+    height: 40px;
+  }
+
+  .MyContactsContainer {
+    display: block;
+    border-radius: 10%;
+  }
+
+  .MyContacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .MyContacts p {
+    font-size: 12px;
+  }
+
+  footer {
+    height: 0.25in;
+  }
+
+  #Cpr {
+    font-size: 10px;
+  }
+
+  #Profile {
+    background-color: orange;
+    margin-bottom: 0.5in;
+  }
+
+  #About {
+    background-color: orange;
+    margin-bottom: 0.5in;
+  }
+
+  #Experience {
+    background-color: orange;
+    margin-bottom: 0.5in;
+  }
+
+  #Projects {
+    background-color: orange;
+    margin-bottom: 0.5in;
+  }
+
+  #Contacts {
+    background-color: orange;
+    margin-bottom: 0.5in;
+  }
+
+  #Title {
+    font-size: 30px;
+  }
+}

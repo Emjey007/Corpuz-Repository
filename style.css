@@ -188,7 +188,6 @@ ol {
 
 .ProfileInfo {
   background-image: url(./Assets/DesignBG.jpg);
-  background-size: 100%;
   background-attachment: fixed;
   height: 3in;
   width: 50%;
@@ -339,6 +338,8 @@ ol {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  border-style: solid;
+  border-color: black;
 }
 
 #GithubButton {
@@ -369,7 +370,6 @@ ol {
 
 .MyContactsContainer {
   background-image: url(./Assets/DesignBG.jpg);
-  background-size: 100%;
   background-attachment: fixed;
   width: 75%;
   border-style: solid;
@@ -392,11 +392,11 @@ ol {
 /* FOOTER */
 
 footer {
+  margin-top: 2.5in;
   display: flex;
   align-items: center;
   height: 0.5in;
   background-image: url(./Assets/NbFBG.jpg);
-  background-size: 100%;
   background-attachment: fixed;
   justify-content: space-evenly;
 }
