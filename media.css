@@ -21,8 +21,13 @@
     height: 200px;
   }
 
+  #Profile {
+    background-color: orange;
+    margin-bottom: 0.5in;
+  }
+
   .ProfileContainer {
-    height: 4in;
+    height: 3.7in;
   }
 
   .ProfileInfo {
@@ -38,15 +43,6 @@
     font-size: 20px;
   }
 
-  /* .ProfileInfo #CVButton {
-    display: flex;
-    align-items: center;
-  }
-
-  #CVButton {
-    padding: none;
-  } */
-
   .ButtonContainer {
     display: flex;
     align-items: center;
@@ -58,16 +54,6 @@
     padding: 5px 15px;
   }
 
-  /* .ButtonContainer {
-    margin-block: none;
-  }
-
-  #CVButton {
-    padding: none;
-  } */
-
-  /* #Profile */
-
   /* ABOUT */
 
   #Picture2 {
@@ -78,8 +64,13 @@
     height: 25px;
   }
 
+  #About {
+    background-color: orange;
+    margin-bottom: 0.5in;
+  }
+
   .AboutPictureContainer {
-    height: 5in;
+    height: 4.9in;
   }
 
   .FirstContainerAbout,
@@ -103,27 +94,51 @@
     list-style: none;
   }
 
-  /* EXPERIENCE */
+  /* EXPERIENCE  */
 
-  /* #MyExperience {
+  #MyExperience {
     height: 40px;
     border-radius: 50%;
   }
 
+  #Experience {
+    background-color: orange;
+    margin-bottom: 0.5in;
+  }
+
   .ContainerForWholeExp {
-    display: grid;
-    height: 5in;
+    height: 3.5in;
+    width: 100%;
   }
 
   .FirstContainerExp,
   .SecondContainerExp {
-    height: 2.5 in; */
+    height: 3in;
+  }
 
-    /* display: block; */
+  .FEDContainer #Title {
+    font-size: 20px;
+  }
 
-  /* .FEDDescription, .PLDescription {
+  .FEDExp h3 {
+    font-size: 15px;
+  }
 
-} */
+  .FEDExp p {
+    font-size: 12.5px;
+  }
+
+  .PLContainer #Title {
+    font-size: 20px;
+  }
+
+  .PLExp h3 {
+    font-size: 15px;
+  }
+
+  .PLExp p {
+    font-size: 12.5px;
+  }
 
   /* PROJECTS */
 
@@ -131,11 +146,16 @@
     height: 200px;
   }
 
+  #Projects {
+    background-color: orange;
+    margin-bottom: 0.5in;
+  }
+
   .MyProjectsContainer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 5in;
+    height: 4.5in;
   }
 
   .ProjectsContainer {
@@ -164,6 +184,11 @@
     height: 40px;
   }
 
+  #Contacts {
+    background-color: orange;
+    margin-bottom: 0.5in;
+  }
+
   .MyContactsContainer {
     display: block;
     border-radius: 10%;
@@ -179,6 +204,8 @@
     font-size: 12px;
   }
 
+  /* FOOTER */
+
   footer {
     height: 0.25in;
   }
@@ -187,32 +214,20 @@
     font-size: 10px;
   }
 
-  #Profile {
-    background-color: orange;
-    margin-bottom: 0.5in;
-  }
-
-  #About {
-    background-color: orange;
-    margin-bottom: 0.5in;
-  }
-
-  #Experience {
-    background-color: orange;
-    margin-bottom: 0.5in;
-  }
-
-  #Projects {
-    background-color: orange;
-    margin-bottom: 0.5in;
-  }
-
-  #Contacts {
-    background-color: orange;
-    margin-bottom: 0.5in;
-  }
-
   #Title {
     font-size: 30px;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .hamburger-icon {
+    height: 18px;
+    width: 25px;
+  }
+
+  .menu-links a {
+    font-size: 1rem;
   }
 }
