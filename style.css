@@ -238,51 +238,82 @@ a:hover {
   background-attachment: fixed;
 }
 
-
 /* EXPERIENCE */
 
 #MyExperience {
-    height: 80px;
-    border-radius: 50%;
-  }
-  
-  #Experience {
-    margin-bottom: 2.5in;
-    text-align: center;
-  }
-  
-  .ContainerForWholeExp {
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 5.5in;
-    width: 90%;
-  }
-  
-  .FirstContainerExp,
-  .SecondContainerExp {
-    background-image: url(./Assets/DesignBG.jpg);
-    background-attachment: fixed;
-    border-radius: 10%;
-    border-style: solid;
-    border-color: black;
-    height: 5in;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 45%;
-  }
-  
-  .FEDDescription,
-  .PLDescription {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-block: 0.5cm;
-  }
-  
-  .FEDExp,
-  .PLExp {
-    flex-direction: column;
-  }
+  height: 80px;
+  border-radius: 50%;
+}
+
+#Experience {
+  margin-bottom: 2.5in;
+  text-align: center;
+}
+
+.ContainerForWholeExp {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 5.5in;
+  width: 90%;
+}
+
+.FirstContainerExp,
+.SecondContainerExp {
+  background-image: url(./Assets/DesignBG.jpg);
+  background-attachment: fixed;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: black;
+  height: 5in;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 45%;
+}
+
+.FEDDescription,
+.PLDescription {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-block: 0.5cm;
+}
+
+.FEDExp,
+.PLExp {
+  flex-direction: column;
+}
+
+/* PROJECTS */
+
+#Picture3 {
+  height: 400px;
+  border-style: dotted;
+}
+
+#Projects {
+  margin-bottom: 2.5in;
+  text-align: center;
+}
+
+.MyProjectsContainer {
+  height: 8in;
+  width: 90%;
+  margin: auto;
+}
+
+.ProjectsContainer {
+  background-image: url(./Assets/DesignBG.jpg);
+  background-attachment: fixed;
+  height: 6in;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#GithubButton {
+  margin-block: 1.5mm;
+  padding: 10px 30px;
+}
