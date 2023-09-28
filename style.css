@@ -138,30 +138,30 @@ a:hover {
 /* TEXT DECORATIONS */
 
 #Title {
-    font-family: "Courier New";
-    font-size: 40px;
-  }
-  
-  h2 {
-    font-family: "Times New Roman";
-    font-size: 20px;
-  }
-  
-  p {
-    font-family: "Arial";
-    font-size: 15px;
-  }
-  
-  p,
-  ol {
-    font-family: "Arial";
-    font-size: 15px;
-  }
-  
-  #Cpr {
-    font-family: "Verdana";
-    font-size: 20px;
-  }
+  font-family: "Courier New";
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+p {
+  font-family: "Arial";
+  font-size: 15px;
+}
+
+p,
+ol {
+  font-family: "Arial";
+  font-size: 15px;
+}
+
+#Cpr {
+  font-family: "Verdana";
+  font-size: 20px;
+}
 
 /* PROFILE */
 
@@ -392,11 +392,11 @@ a:hover {
 /* FOOTER */
 
 footer {
-    display: flex;
-    align-items: center;
-    height: 0.5in;
-    background-image: url(./Assets/NbFBG.jpg);
-    background-size: 100%;
-    background-attachment: fixed;
-    justify-content: space-evenly;
-  }
+  display: flex;
+  align-items: center;
+  height: 0.5in;
+  background-image: url(./Assets/NbFBG.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  justify-content: space-evenly;
+}
