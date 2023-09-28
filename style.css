@@ -317,3 +317,46 @@ a:hover {
   margin-block: 1.5mm;
   padding: 10px 30px;
 }
+
+/* CONTACTS */
+
+#MyContactsInfo {
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#Contacts {
+  margin-bottom: 2.5in;
+  text-align: center;
+}
+
+.ContactsContainer {
+  height: 1.25in;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.MyContactsContainer {
+  background-image: url(./Assets/DesignBG.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  width: 75%;
+  border-style: solid;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.MyContacts {
+  display: flex;
+  align-items: center;
+  gap: 5mm;
+  height: 2cm;
+}
+
+#ClickableParagraph {
+  cursor: pointer;
+}
