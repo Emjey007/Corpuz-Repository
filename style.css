@@ -360,3 +360,15 @@ a:hover {
 #ClickableParagraph {
   cursor: pointer;
 }
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 0.5in;
+    background-image: url(./Assets/NbFBG.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    justify-content: space-evenly;
+  }
