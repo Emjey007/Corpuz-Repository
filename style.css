@@ -135,6 +135,34 @@ a:hover {
   transform: none;
 }
 
+/* TEXT DECORATIONS */
+
+#Title {
+    font-family: "Courier New";
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-family: "Times New Roman";
+    font-size: 20px;
+  }
+  
+  p {
+    font-family: "Arial";
+    font-size: 15px;
+  }
+  
+  p,
+  ol {
+    font-family: "Arial";
+    font-size: 15px;
+  }
+  
+  #Cpr {
+    font-family: "Verdana";
+    font-size: 20px;
+  }
+
 /* PROFILE */
 
 #Picture1 {
