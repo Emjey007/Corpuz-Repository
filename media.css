@@ -1,24 +1,103 @@
 @media screen and (max-width: 1400px) {
+  /* NAVIGATION BAR */
+
   #WebsiteNav {
     display: flex;
+  }
+
+  /* ABOUT */
+
+  .Details li {
+    list-style: none;
   }
 }
 
 @media screen and (max-width: 1200px) {
+  /* NAVIGATION BAR */
+
   #WebsiteNav {
     display: none;
   }
 
   #hamburger-nav {
     display: flex;
+    position: sticky;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /* PROFILE */
+
+  .ProfileInfo {
+    height: 3.5in;
+  }
+
+  /* CONTACTS */
+
+  .MyContactsContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 3in;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* PROFILE */
+
+  .ProfileInfo p {
+    margin-block: 4mm;
+  }
+  
+  .ButtonContainer {
+    margin-block: 4mm;
+  }
+
+  /* EXPERIENCE */
+
+  .FEDContainer #Title {
+    font-size: 30px;
+  }
+
+  .PLContainer #Title {
+    font-size: 30px;
+  }
+
+  /* PROJECTS */
+
+  #Picture3 {
+    height: 300px;
+    border-style: dotted;
   }
 }
 
 @media screen and (max-width: 600px) {
+
+  .BlankSpace {
+    height: 1in;
+  }
+
+  /* NAVIGATION BAR */
+
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .hamburger-icon {
+    height: 18px;
+    width: 25px;
+  }
+
+  .menu-links a {
+    font-size: 1rem;
+  }
+
   /* PROFILE */
 
   #Picture1 {
-    height: 200px;
+    height: 250px;
   }
 
   #Profile {
@@ -30,8 +109,7 @@
   }
 
   .ProfileInfo {
-    height: 300px;
-    display: grid;
+    height: 3in;
   }
 
   .ProfileInfo p {
@@ -46,7 +124,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-block: none;
   }
 
   #CVButton {
@@ -80,11 +157,11 @@
 
   .Details h1 {
     font-family: "Courier New";
-    font-size: 15px;
+    font-size: 18px;
   }
 
-  .Details p {
-    font-size: 10px;
+  .Details p, .Details ol li {
+    font-size: 11px;
   }
 
   .Details li {
@@ -92,7 +169,7 @@
     list-style: none;
   }
 
-  /* EXPERIENCE  */
+  /* EXPERIENCE */
 
   #MyExperience {
     height: 40px;
@@ -155,7 +232,6 @@
   }
 
   .ProjectsContainer {
-    border-radius: 10%;
     height: 4in;
     width: 95%;
   }
@@ -185,8 +261,7 @@
   }
 
   .MyContactsContainer {
-    display: block;
-    border-radius: 10%;
+    width: 75%;
   }
 
   .MyContacts {
@@ -211,18 +286,5 @@
 
   #Title {
     font-size: 30px;
-  }
-
-  .logo {
-    font-size: 1rem;
-  }
-
-  .hamburger-icon {
-    height: 18px;
-    width: 25px;
-  }
-
-  .menu-links a {
-    font-size: 1rem;
   }
 }

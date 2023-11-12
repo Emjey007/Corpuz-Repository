@@ -8,18 +8,27 @@ html {
   scroll-behavior: smooth;
 }
 
-/* NAVIGATION BAR */
-
-nav,
-.nav-links {
-  display: flex;
-}
-
 body {
   background-image: url(./Assets/WebsiteBG.jpg);
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+.BlankSpace {
+  height: 1in;
+}
+
+/* NAVIGATION BAR */
+
+#WebsiteNav {
+  position: sticky;
+  top: 0;
+}
+
+nav,
+.nav-links {
+  display: flex;
 }
 
 nav {
@@ -28,7 +37,6 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 10vh;
-  margin-bottom: 0.5in;
 }
 
 .nav-links {
@@ -45,12 +53,11 @@ a {
 
 a:hover {
   color: gray;
-  text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: black;
 }
 
-.logo {
+.logo h1 {
   font-size: 2rem;
 }
 
@@ -177,7 +184,7 @@ ol {
 }
 
 #Profile {
-  margin-bottom: 2.5in;
+  margin-bottom: 1in;
   text-align: center;
 }
 
@@ -192,6 +199,8 @@ ol {
 }
 
 .ProfileInfo {
+  display: flex;
+  flex-direction: column;
   background-image: url(./Assets/DesignBG.jpg);
   background-attachment: fixed;
   height: 3in;
@@ -227,7 +236,7 @@ ol {
 }
 
 #About {
-  margin-bottom: 2.5in;
+  margin-bottom: 1in;
   text-align: center;
 }
 
@@ -278,7 +287,7 @@ ol {
 }
 
 #Experience {
-  margin-bottom: 2.5in;
+  margin-bottom: 1in;
   text-align: center;
 }
 
@@ -326,7 +335,6 @@ ol {
 }
 
 #Projects {
-  margin-bottom: 2.5in;
   text-align: center;
 }
 
@@ -361,12 +369,12 @@ ol {
 }
 
 #Contacts {
-  margin-bottom: 2.5in;
+  margin-bottom: 1in;
   text-align: center;
 }
 
 .ContactsContainer {
-  height: 1.25in;
+  height: 1in;
   width: 90%;
   display: flex;
   align-items: center;
@@ -376,7 +384,7 @@ ol {
 .MyContactsContainer {
   background-image: url(./Assets/DesignBG.jpg);
   background-attachment: fixed;
-  width: 75%;
+  width: 90%;
   border-style: solid;
   display: flex;
   margin: auto;
@@ -387,7 +395,7 @@ ol {
   display: flex;
   align-items: center;
   gap: 5mm;
-  height: 2cm;
+  height: 3cm;
 }
 
 #ClickableParagraph {
